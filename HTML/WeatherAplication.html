@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/WeatherAplication.css">
+    
     <title>WeatherAplication</title>
 </head>
 <body>
-    
+    <div class="cotainer">
+        <div class="header">
+            <h2>Weather</h2>
+            <div class="weather-input">
+                <input type="text" name="city" id="city_input" placeholder="Enter City name">
+                <button type="button" id="searchBtn">
+                    <i class="fa-regular fa-serch"></i>Search
+                </button>
+                <button type="button" id="locationBtn">
+                    <i class="bx bx-target-lock"></i>Current Location
+                </button>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="../JS/WeatherAplication.js"></script>
 </html>
